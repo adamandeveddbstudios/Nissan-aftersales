@@ -52,12 +52,17 @@ html, body {
 #main {
   overflow:hidden;
 }
-
+#car{
+  transform: translateX(-200px);
+}
 #copy1, #copy2{
   position: absolute;
   left: 9px;
   top: 184.1px;
   width: 77.5px;
+}
+#copy1{
+  transform: translateX(-120px);
 }
 #copy2{
   width: 346px;
