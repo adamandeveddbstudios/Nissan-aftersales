@@ -1,0 +1,155 @@
+
+/* @font-face {
+  font-family: 'Acumin';
+  src: url('fonts/AcuminVariableConcept.ttf') format('woff');
+  font-style: normal;
+  font-display: swap;
+} */
+@font-face {
+  font-family: 'Nisssan';
+  src: url('fonts/subset-NissanBrandW01-Regular.woff2') format('woff2');
+  font-style: normal;
+  font-display: swap;
+}
+
+html, body {
+  width:300px;
+  height:600px;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.absolute {
+  position:absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.full-width {
+  position:absolute;
+  left: 0px;
+  top: 0px;
+  width:300px;
+  height: auto;
+}
+
+#main,
+#background {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:300px;
+  height:600px;
+  background-color: #C1D8DE;
+}
+
+#main {
+  overflow:hidden;
+}
+
+#copy1, #copy2{
+  position: absolute;
+  left: 96px;
+  top: 153.5px;
+  width: 174px;
+}
+#copy2{
+  width: 346px;
+  height: auto;
+  top: 104px;
+  left: 189px;
+}
+#copy3{
+  font-family: 'Nisssan';
+  position: absolute;
+  color: #C3002F;
+  left: 95px;
+  top: 456px;
+  font-size: 11.68px;
+  line-height: 13.7px;
+}
+.copy4{
+  position: absolute;
+  left: 5px;
+  top: 588.5px;
+  font-family: 'Nisssan';
+  color: #C3002F;
+  font-size: 6.04px;
+}
+
+
+.cta {
+  position: absolute;
+  left: 94px;
+  top: 526px;
+  width: 104px;
+  height: 27px;
+}
+.ch{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  scale: 8.5;
+}
+
+.ch1{
+  width: 67.5px;
+  left: 95.5px;
+  top: 301px;
+}
+.ch2{
+  width: 71.5px;
+  left: 165.5px;
+  top: 302px;
+}
+.ch3{
+  width: 102.5px;
+  left: 95.5px;
+  top: 377.8px;
+}
+.ch4{
+  width: 60px;
+  left: 203px;
+  top: 379px;
+}
+.ch5{
+  width: 11.8px;
+  left: 264.5px;
+  top: 424.2px;
+}
+
+.frame {
+  width:300px;
+  height:600px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.logo{
+  position: absolute;
+  left: 186px;
+  top: 2px;
+  width: 113px;
+}
+
+#bgExit {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  z-index: 99999;
+  background-color: rgba(255,255,255,0);
+  border:1px solid #000000;
+  box-sizing:border-box;
+  -ms-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+}
