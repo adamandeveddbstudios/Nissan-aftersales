@@ -24,8 +24,8 @@ function animate() {
 
   // tl1.set(["#main_content"], { autoAlpha: 1, force3D: true });
   // tl1.set(["#cta"], { force3D: false, rotation: .001 });
-  tl1.set(["#car"], { x: -330 });
-  tl1.set(["#copy1"], { x: -140 });
+  // tl1.set(["#car"], { x: -330 });
+  // tl1.set(["#copy1"], { x: -140 });
 
   tl1.addLabel("frame1", 0);
 

@@ -52,6 +52,13 @@ html, body {
 #main {
   overflow:hidden;
 }
+.gif{
+  position: absolute;
+  left: -112px;
+  top: 9px;
+  width: 520px;
+  height: auto;
+}
 
 #car{
   transform: translateX(-230px);
