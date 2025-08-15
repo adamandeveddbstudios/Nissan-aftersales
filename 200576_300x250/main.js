@@ -38,7 +38,7 @@ function animate() {
   tl1.to("#gif", 1,{ autoAlpha:1, ease: "power1.out", }, "frame1+=6");
   tl1.to("#gif", 0.5,{ autoAlpha:0, ease: "power1.out", }, "frame1+=9.5");
   tl1.to(['#copy1, #copy3, .ch'], 1,{ autoAlpha:1, ease: "power3.inOut", }, "<");
-  tl1.to("#cta", 1,{ autoAlpha:1, ease: "power1.inOut", }, "<");
+  tl1.to("#cta", 1,{ autoAlpha:1, ease: "power1.inOut", }, "frame1+=10.5");
 
 }
 
