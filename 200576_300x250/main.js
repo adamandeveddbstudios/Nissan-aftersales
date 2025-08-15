@@ -33,12 +33,8 @@ function animate() {
   tl1.to("#copy1", 1,{ x: 0, ease: "power3.out", }, "frame1+=0.4");
   
   tl1.staggerTo(['.ch'], 0.5,{ scale: 1, autoAlpha:1,  ease: "expo.out", }, 0.2, "frame1+=1.5");
-  tl1.to("#copy3", 1,{ autoAlpha:1, ease: "power1.out", }, "frame1+=3.5");
-  tl1.to(['#copy1, #copy3, .ch'], 1,{ autoAlpha:0, ease: "power2.inOut", }, "frame1+=5.5");
-  tl1.to("#gif", 1,{ autoAlpha:1, ease: "power1.out", }, "frame1+=6");
-  tl1.to("#gif", 0.5,{ autoAlpha:0, ease: "power1.out", }, "frame1+=9.5");
-  tl1.to(['#copy1, #copy3, .ch'], 1,{ autoAlpha:1, ease: "power3.inOut", }, "<");
-  tl1.to("#cta", 1,{ autoAlpha:1, ease: "power1.inOut", }, "frame1+=10.5");
+  tl1.to(["#cta, #copy3"], 1,{ autoAlpha:1, ease: "power1.out", }, "frame1+=3.5");
+
 
 }
 

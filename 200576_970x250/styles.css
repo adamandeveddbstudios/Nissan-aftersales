@@ -1,10 +1,10 @@
 
-/* @font-face {
-  font-family: 'Acumin';
-  src: url('fonts/AcuminVariableConcept.ttf') format('woff');
+@font-face {
+  font-family: 'Nisssan-bold';
+  src: url('fonts/subset-NissanBrandW01-Bold.woff') format('woff2');
   font-style: normal;
   font-display: swap;
-} */
+}
 @font-face {
   font-family: 'Nisssan';
   src: url('fonts/subset-NissanBrandW01-Regular.woff2') format('woff2');
@@ -71,13 +71,14 @@ html, body {
   left: 189px;
 }
 #copy3{
-  font-family: 'Nisssan';
+  font-family: 'Nisssan-bold';
   position: absolute;
   color: #c4002f;
   left: 559px;
   top: 125px;
   font-size: 14.1px;
   line-height: 17px;
+  /* text-shadow: 0 0 6px rgba(255, 255, 255, 0.8); */
 }
 .copy4{
   position: absolute;

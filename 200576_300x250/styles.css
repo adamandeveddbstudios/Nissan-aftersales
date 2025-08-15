@@ -1,13 +1,14 @@
 
-/* @font-face {
-  font-family: 'Acumin';
-  src: url('fonts/AcuminVariableConcept.ttf') format('woff');
+
+@font-face {
+  font-family: 'Nisssan-bold';
+  src: url('fonts/subset-NissanBrandW01-Bold.woff') format('woff2');
   font-style: normal;
   font-display: swap;
-} */
+}
 @font-face {
-  font-family: 'Nisssan';
-  src: url('fonts/subset-NissanBrandW01-Regular.woff2') format('woff2');
+  font-family: 'Nisssan-bold';
+  src: url('fonts/subset-NissanBrandW01-Bold.woff') format('woff');
   font-style: normal;
   font-display: swap;
 }
@@ -52,13 +53,7 @@ html, body {
 #main {
   overflow:hidden;
 }
-.gif{
-  position: absolute;
-  left: -112px;
-  top: 9px;
-  width: 520px;
-  height: auto;
-}
+
 #car{
   transform: translateX(-230px);
 }
@@ -79,13 +74,14 @@ html, body {
   left: 189px;
 }
 #copy3{
-  font-family: 'Nisssan';
+  font-family: 'Nisssan-bold';
   position: absolute;
   color: #C3002F;
   left: 89px;
   top: 160px;
   font-size: 9.55px;
   line-height: 11.5px;
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.8);
 }
 .copy4{
   position: absolute;

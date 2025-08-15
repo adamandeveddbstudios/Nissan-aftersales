@@ -13,8 +13,8 @@
 }
 
 html, body {
-  width:120px;
-  height:600px;
+  width:320px;
+  height:50px;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -35,7 +35,7 @@ html, body {
   position:absolute;
   left: 0px;
   top: 0px;
-  width:120px;
+  width:320px;
   height: auto;
 }
 
@@ -44,8 +44,8 @@ html, body {
   position:absolute;
   left:0px;
   top:0px;
-  width:120px;
-  height:600px;
+  width:320px;
+  height:50px;
   background-color: #C1D8DE;
 }
 
@@ -53,16 +53,16 @@ html, body {
   overflow:hidden;
 }
 #car{
-  transform: translateX(-200px);
+  transform: translateX(-330px);
 }
 #copy1, #copy2{
   position: absolute;
-  left: 9px;
-  top: 184.1px;
-  width: 77.5px;
+  left: 8px;
+  top: 10px;
+  width: 123.2px;
 }
 #copy1{
-  transform: translateX(-120px);
+  transform: translateX(-140px);
 }
 #copy2{
   width: 346px;
@@ -71,41 +71,30 @@ html, body {
   left: 189px;
 }
 #copy3{
-  font-family: 'Nisssan-bold';
   position: absolute;
-  color: #C3002F;
-  left: 11px;
-  top: 377px;
-  font-size: 8.53px;
-  line-height: 10.1px;
-  text-shadow: 0 0 6px rgba(255, 255, 255, 0.8);
+  color: #c4002f;
+  left: 9px;
+  top: 10px;
+  font-size: 8px;
+  line-height: 10.5px;
+  font-family: 'Nisssan-bold';
+  /* text-shadow: 0 0 6px rgba(255, 255, 255, 0.8); */
 }
 .copy4{
   position: absolute;
-  left: 5px;
-  top: 588.5px;
+  left: 2px;
+  top: 44.9px;
   font-family: 'Nisssan';
-  color: #C3002F;
-  font-size: 5.04px;
+  color: #c4002f;
+  font-size: 3.03px;
 }
-.logo {
-  position: absolute;
-  left: 18px;
-  top: 6.5px;
-  width: 84.5px;
-}
-#car{
-  position: absolute;
-  left: -87px;
-  top: 32px;
-  width: 275px;
-}
+
 .cta {
   position: absolute;
-  left: 10px;
-  top: 453px;
-  width: 81px;
-  height: 21px;
+  left: 189px;
+  top: 19px;
+  width: 46px;
+  height: 12px;
 }
 .ch{
   position: absolute;
@@ -115,39 +104,38 @@ html, body {
 }
 
 .ch1{
-  width: 37.7px;
-  left: 9px;
-  top: 286px;
+  width: 36.6px;
+  left: 74.5px;
+  top: 20.5px;
 }
 .ch2{
-  width: 40px;
-  left: 48.2px;
-  top: 286.5px;
+  width: 17.5px;
+  left: 112.7px;
+  top: 20.5px;
 }
 .ch3{
-  width: 57.5px;
-  left: 8.7px;
-  top: 328.8px;
+  width: 23px;
+  left: 131.5px;
+  top: 20.5px;
 }
 .ch4{
-  width: 33.5px;
-  left: 69.5px;
-  top: 329.5px;
+  width: 21.5px;
+  left: 156.5px;
+  top: 20.5px;
 }
 .ch5{
-  width: 7px;
-  left: 103.5px;
-  top: 354.5px;
+  width: 4px;
+  left: 178.5px;
+  top: 36.9px;
 }
 
 .frame {
-  width:120px;
-  height:600px;
+  width:320px;
+  height:50px;
   position: absolute;
   left: 0px;
   top: 0px;
 }
-
 
 #bgExit {
   position: absolute;

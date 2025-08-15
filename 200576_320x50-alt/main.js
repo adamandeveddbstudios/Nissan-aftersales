@@ -21,9 +21,6 @@ function init() {
 }
 
 function animate() {
-
-  // tl1.set(["#main_content"], { autoAlpha: 1, force3D: true });
-  // tl1.set(["#cta"], { force3D: false, rotation: .001 });
   tl1.set(["#car"], { x: -330 });
   tl1.set(["#copy1"], { x: -140 });
 
@@ -33,7 +30,10 @@ function animate() {
   tl1.to("#copy1", 1,{ x: 0, ease: "power3.out", }, "frame1+=0.4");
   
   tl1.staggerTo(['.ch'], 0.5,{ scale: 1, autoAlpha:1,  ease: "expo.out", }, 0.2, "frame1+=1.5");
-  tl1.to(["#cta, #copy3"], 1,{ autoAlpha:1, ease: "power1.out", }, "frame1+=3.5");
+
+  tl1.to(["#copy1, .ch"], 0.5,{ autoAlpha:0, ease: "power1.out", }, "frame1+=4.5");
+
+  tl1.to(["#cta, #copy3"], 1,{ autoAlpha:1, ease: "power1.out", }, "frame1+=5");
 
 
 }
